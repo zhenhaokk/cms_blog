@@ -19,6 +19,7 @@ const PostDetails = ({ post }) => {
   if (router.isFallback) {
     return <Loader />;
   }
+  
   return (
     <>
       <div className="container mx-auto px-10 mb-8">
